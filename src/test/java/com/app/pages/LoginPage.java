@@ -33,7 +33,7 @@ public class LoginPage {
 	public WebElement alreadyRegisteredLabel;
 	
 	@FindBy(xpath="//a[@class='logout']")
-	//public WebElement logout;
+	public WebElement logout;
 	
 	public boolean isAt() {
 		return driver.getTitle().equals("Login - My Store");
