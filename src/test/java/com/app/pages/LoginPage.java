@@ -19,7 +19,7 @@ public class LoginPage {
 	}
 	
 	@FindBy(id="email")
-	public WebElement email;
+	//public WebElement email;
 	
 	@FindBy(id="passwd")
 	public WebElement password;
