@@ -51,7 +51,7 @@ public class UITestStepDef {
 
 	@Then("Web title should be My Store")
 	public void web_title_should_be_My_Store() {
-		String expected =""; //"My account - My Store";
+		String expected ="My account - My Store";
 		String actual = driver.getTitle();
 		assertEquals(actual, expected);
 	}
