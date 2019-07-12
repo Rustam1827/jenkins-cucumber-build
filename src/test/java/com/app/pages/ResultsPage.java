@@ -12,6 +12,7 @@ public class ResultsPage {
 	
 	public ResultsPage() {
 		this.driver = Driver.getDriver();
+		
 		PageFactory.initElements(driver, this);
 	}
 	
