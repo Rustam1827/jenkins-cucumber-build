@@ -17,7 +17,7 @@ public class LoginPage {
 		this.driver = Driver.getDriver();
 		PageFactory.initElements(driver, this);
 	}
-	
+
 	@FindBy(id="email")
 	public WebElement email;
 	
@@ -48,5 +48,6 @@ public class LoginPage {
 	public void logOut() {
 		logout.click();
 	}
+
 
 }
